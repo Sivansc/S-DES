@@ -10,18 +10,21 @@
 #### 3.1 第一关:基本测试
 题目：根据S-DES算法编写和调试程序，提供GUI解密支持用户交互。输入可以是8bit的数据和10bit的密钥，输出是8bit的密文。
 基础界面如下：
+
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/183a6a17-77c4-4021-9aae-6dfdeb84f3b0">
 
 ##### 3.1.1加密测试
 密钥：1011001011
 明文：10101010
 求得密文：11101000
+
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/c5d6731b-31fb-4bda-baf3-4ac890162e20">
 
 ##### 3.1.2解密测试
 密钥：1011001011
 密文：11101000
 求得明文：10101010
+
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/20559536-454d-478d-b8b0-5aec5e757ccb">
 
 ##### 3.1.3总结
