@@ -33,24 +33,28 @@
 密钥：1000101110
 明文：10101100
 求得密文：01101100
+
 <img width="294" alt="image" src="https://github.com/user-attachments/assets/241156a4-5bb4-4b48-ad0a-35116a2f8b60">
 
 ##### 3.2.2对方解密密结果
 密钥：1000101110
 密文：01101100
 求得明文：10101100
+
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/c578e2d4-5e19-418a-9f59-ea18101c4d94">
 
 ##### 3.2.3我方解密结果
 密钥：1111111111
 密文：00001111
 求得明文：11111111
+
 <img width="390" alt="image" src="https://github.com/user-attachments/assets/8179136d-9ee6-4618-b03b-5aa3dfc256a9">
 
 ##### 3.2.4对方加密结果
 密钥：1111111111
 明文：11111111
 求得密文：00001111
+
 <img width="415" alt="image" src="https://github.com/user-attachments/assets/d59fc51b-c43a-41fe-9b24-a1c6454b946c">
 
 ##### 3.2.5结果
@@ -64,12 +68,14 @@
 密钥：1000101110
 明文：axc
 求得密文：H,k
+
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/0ba47d0a-ebfa-4157-b7b8-d1154d2cf4f5">
 
 ##### 3.3.2解密测试
 密钥：1011001011
 密文：H,k
 求得明文：axc
+
 <img width="361" alt="image" src="https://github.com/user-attachments/assets/d9500c35-f03e-4381-9e57-c239b71a6d7d">
 
 ##### 3.3.3总结
@@ -85,6 +91,7 @@
 1001100100 (时间: 2ms)
 1100101110 (时间: 3ms)
 1101100100 (时间: 3ms)
+
 <img width="358" alt="image" src="https://github.com/user-attachments/assets/51283975-8a89-4491-b34d-47fd6c03a410">
 总结：在本关卡中，我们小组对随机生成的一组明、密文对进行了暴力破解，并得到了可能的密钥，可以发现不止一组密钥符合条件，通过这个实验，我们深入了解了暴力破解攻击方法的原理。暴力破解是一种基于穷举的攻击，尝试所有可能的密钥组合，以找到正确的密钥。这有助于我更好地理解密码学的重要性，尤其是密钥强度和安全性的概念。
 
@@ -94,12 +101,13 @@
 密钥1：1000101110
 密文：10010010
 得到明文：10000001
-<img width="348" alt="image" src="https://github.com/user-attachments/assets/8627e499-8b99-4fc5-86a0-c2a54dfe1284">
 
+<img width="348" alt="image" src="https://github.com/user-attachments/assets/8627e499-8b99-4fc5-86a0-c2a54dfe1284">
 
 密钥2：1101100100
 密文：10010010
 得到明文：10000001
+
 <img width="361" alt="image" src="https://github.com/user-attachments/assets/b2b2d0e9-4997-4a50-b7cb-55be3147701f">
 
 可以发现，虽然密钥不同，但是得到的明文都是120。
@@ -107,13 +115,15 @@
 ##### 3.5.2问题二：对应明文空间的任意给定明文分组P，是否会出现选择不同的密钥K加密得到相同密文C的情况？
 密钥1：0101110001
 明文：10101100
-得到密文：10101100
+得到密文：01111111
+
 <img width="363" alt="image" src="https://github.com/user-attachments/assets/14814e92-81e3-4b31-b6f4-04074839572c">
 
 
 密钥2：1000010110
 明文：10101100
 得到密文：01111111
+
 ![image](https://github.com/user-attachments/assets/e55d74e1-2efc-4b24-85cf-272292ad40e6)
 
 可以发现，虽然密钥不同，但是得到的明文都是25。
